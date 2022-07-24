@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
 
-import Level1.RunningSumJava;
+import level1.RunningSumJava;
 
 class RunningSumJavaTest {
 
