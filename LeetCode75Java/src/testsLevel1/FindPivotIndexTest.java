@@ -7,8 +7,8 @@ import java.util.Arrays;
 import org.junit.jupiter.api.Test;
 
 import level1.FindPivotIndex;
-import level1.RunningSumJava;
 
+@SuppressWarnings("unused")
 class FindPivotIndexTest {
 
 	@Test
