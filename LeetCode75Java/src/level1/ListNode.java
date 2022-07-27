@@ -36,6 +36,22 @@ public class ListNode {
 		
 		return myHead;
 	}
+	
+	public ListNode makeACycle(ListNode myHead, int startPos, int lastPos) {
+		ListNode p1 = myHead;
+		ListNode p2 = myHead;
+		
+		for(int i = 0; i < startPos; i++)
+			p2 = p2.next;
+		
+		for(int i = 0; i < lastPos; i++)
+			p1 = p1.next;
+		
+		p1.next = p2;
+		
+		return myHead;
+	}
+	
 	public boolean equals(Object obj) {
 		if (obj == this)
 			return true;
